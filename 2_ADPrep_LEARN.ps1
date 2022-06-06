@@ -21,7 +21,7 @@ $ipdns = "10.0.0.118"
 $ipdns2 = "8.8.8.8" 
 $ipif = (Get-NetAdapter).ifIndex 
 $featureLogPath = "c:\poshlog\featurelog.txt" 
-$newname = "CP1"
+$newname = "DC1"
 $addsTools = "RSAT-AD-Tools" 
 
 #Set static IP address
