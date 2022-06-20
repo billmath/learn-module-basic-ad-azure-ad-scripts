@@ -22,7 +22,7 @@ $VHDPath = 'C:\VM\DC1\DC1.vhdx'
 $VHDSize = '64424509440'
 
 #Create New Virtual Machine
-New-VM -Name $VMName -MemoryStartupBytes 16GB -BootDevice VHD -Path $Path -NewVHDPath $VHDPath -NewVHDSizeBytes $VHDSize  -Generation 2 -Switch $Switch  
+New-VM -Name $VMName -MemoryStartupBytes 16GB -BootDevice VHD -Path $Path -NewVHDPath $VHDPath -NewVHDSizeBytes $VHDSize  -Generation 2 
 
 #Set the memory to be non-dynamic
 Set-VMMemory $VMName -DynamicMemoryEnabled $false
