@@ -16,7 +16,7 @@
 #Declare variables
 $VMName = 'DC1'
 $Switch = 'External'
-$InstallMedia = 'D:\ISO\en_windows_server_2019_updated_march_2021_x64_dvd_ec2626a1.iso'
+$InstallMedia = 'D:\ISO\en-us_windows_server_2019_updated_aug_2021_x64_dvd_a6431a28.iso'
 $Path = 'D:\VM'
 $VHDPath = 'D:\VM\DC1\DC1.vhdx'
 $VHDSize = '64424509440'
